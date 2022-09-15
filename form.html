@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style/nav.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="form01.html">New Form</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="semantic.html">Sementic</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to my Form page.</h1>
+    </header>
+
+
+    <h1>TSC pitha Program</h1>
+    <form action="">
+        <p>Name: <input type="text" placeholder="Enter Your Name" id=""></p>
+        <p>Email: <input type="text" placeholder="Enter Your Email" id=""></p>
+        <p>City: <input type="text" placeholder="Enter Your City" id=""></p>
+        <fieldset>
+            <legend>Select your option</legend>
+            <p>
+                <label for="Mobile">
+                    <input type="radio" name="selectProduct" id="Mobile"> Mobile Phone
+                </label>
+            </p>
+
+            <p>
+                <label for="laptop">
+                    <input type="radio" name="selectProduct" id="laptop"> Laptop
+                </label>
+            </p>
+
+            <p>
+                <label for="cycle">
+                    <input type="radio" name="selectProduct" id="cycle"> Cycle
+                </label>
+            </p>
+
+            <p>
+                <label for="motorCycle">
+                    <input type="radio" name="selectProduct" id="motorCycle"> Motor-Cycle
+                </label>
+            </p>
+
+            <p>
+                <label for="car">
+                    <input type="radio" name="selectProduct" id="car"> Car
+                </label>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Select Your Number</legend>
+            <p><label for="num5"><input type="checkbox" name="phoneNumber" id="num5">  100005</label></p>
+            <p><label for="num6"><input type="checkbox" name="phoneNumber" id="num6">  100006</label></p>
+            <p><label for="num7"><input type="checkbox" name="phoneNumber" id="num7">  100007</label></p>
+        </fieldset>
+
+        <fieldset>
+            <p>Special Instruction</p>
+            <textarea name="instruction" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+
+        <button type="submit">Submit</button> <br>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
