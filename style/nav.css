@@ -1,5 +1,5 @@
-nav ul{
-    display: flex;
+nav > ul{
+    display:flex;
 }
 
 nav li{
@@ -8,11 +8,29 @@ nav li{
 }
 
 nav li:hover{
-    background-color: cornflowerblue;
+    background-color: rgb(141, 230, 137);
 }
 
 nav li a{
     text-decoration: none;
     color: chocolate;
     font-size: 20px;
+}
+
+.dropdown{
+    display: none;
+}
+
+
+nav > ul > li:hover > ul{
+    display: block;
+    position:absolute;
+    background-color: rgb(177, 231, 231);
+    padding: 0px;
+}
+
+.dropdown li{
+    margin: 0px;
+    padding: 0px 20px;
+
 }
