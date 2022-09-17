@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>specificity  css-recap</title>
+    <link rel="stylesheet" href="style/specificity.css">
+
+    <style>
+        h1{
+            text-align: center;
+            background-color: rgb(179, 182, 182);
+            /* color:rgb(241, 171, 17) !important; */
+            color: rgb(46, 27, 217);
+        }
+
+        #third{
+            color: brown;
+        }
+
+        .headingText{
+            color: black;
+        }
+
+        p{
+            border: 3px solid red;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1 class="headingText" id=""> My Heading text-1</h1>
+    <h1 class="headingText02" id=""> My Heading text-2</h1>
+    <h1 class="headingText" id="third"> My Heading text-3</h1>
+    <h1 class="headingText" style="color:floralwhite"> My Heading text-4</h1>
+
+
+    <p>This is my text description-1</p>
+    <p>This is my text description-2</p>
+    <p>This is my text description-3</p>
+    <p>This is my text description-4</p>
+    <p>This is my text description-5</p>
+</body>
+</html>
