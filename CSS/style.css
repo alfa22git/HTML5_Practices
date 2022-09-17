@@ -1,0 +1,54 @@
+/* custom properte making */
+
+:root{
+    --main-color:red;
+    --main-borderColor:green;
+    --main-backgroundColor:rgb(141, 141, 141);
+    --green-border: 2px solid green;
+    --side-width: 150px;
+}
+
+h1{
+    color: aqua;
+    background-color: var(--main-backgroundColor);
+}
+
+
+h2{
+    color: var(--main-color);
+    border: var(--green-border);
+}
+
+
+.h2paragraph{
+    color: black;
+    border: var(--green-border);
+}
+
+#h1Pragraph{
+    color: black;
+    border: var(--green-border);
+}
+
+footer{
+    border: var(--green-border);
+    color: var(--main-color);
+    clear: both;
+}
+
+.blogs , .sideNav{
+    height: 500px;
+    border: var(--green-border);
+    float: left;
+
+}
+
+.sideNav{
+    background-color: blueviolet;
+    width: var(--side-width);
+}
+
+.blogs{
+    background-color: coral;
+    width: calc(100% - 2*var(--side-width));
+}
